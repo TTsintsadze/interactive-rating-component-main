@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Overpass', sans-serif;
-  background: #121417;
+  background: #131518;
   line-height: 1.6;
   font-size: 1.2rem;
   color: white;
@@ -22,7 +22,7 @@ body {
 div.star {
   width: 48px;
   height: 48px;
-  background: #131518;
+  background: #262E38;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -114,8 +114,8 @@ div.star {
   width: 51px;
   height: 51px;
   border: none;
-  background: #3a4655;
-  color: #959eac;
+  background: #262E38;
+  color: #7C8798;
   border-radius: 50%;
   cursor: pointer;
   -webkit-transition: all 500ms;
@@ -126,11 +126,10 @@ div.star {
   background: #4e5f73;
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
-  border-radius: 0;
 }
 
 .buttons button.selected {
-  background: #fb7413;
+  background: #FC7614;
   color: white;
 }
 
@@ -140,7 +139,6 @@ div.star {
 
 .container .submit {
   font-family: 'Overpass', sans-serif;
-  font-size: 1.2rem;
   display: block;
   width: 341px;
   height: 45px;
@@ -150,16 +148,20 @@ div.star {
   border-radius: 50px;
   text-transform: uppercase;
   color: white;
-  font-weight: 400;
-  letter-spacing: .1rem;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
   cursor: pointer;
   -webkit-transition: all 400ms ease-in-out;
   transition: all 400ms ease-in-out;
+  font-feature-settings: 'clig' off, 'liga' off;
 }
 
 .container .submit:hover {
-  background: #a64703;
-  border-radius: 0px;
+  background: #FFF;
+  color: #FC7614;
 }
 
 .container #box-2 {
@@ -249,12 +251,15 @@ div.star {
   }
 
   .container .submit {
-    font-size: 1rem;
     margin-top: 1rem;
     padding: 8px;
     width: 279px;
     height: 45px;
-    border-radius: 22.5px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.867px;
   }
 
   .container #box-2 h1 {
